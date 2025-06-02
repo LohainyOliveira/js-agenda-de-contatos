@@ -1,0 +1,32 @@
+*{
+  font-family:Georgia, 'Times New Roman';
+}
+
+body{
+  background-color: #f0f0f0;
+}
+
+.App{
+  width:100%;
+  max-width: 600px;
+
+  display:flex;
+  flex-direction:column;
+  justify-self: center;
+
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+
+}
+
+.App h1{
+  align-self: center;
+}
+.btnAdd{
+  color: rgb(0, 0, 0);
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer
+}
